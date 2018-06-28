@@ -6,7 +6,7 @@ end
 
 def print_ticket_button()
 
-  return '<div class=\"eventbrite\"><a href=\"https://www.eventbrite.com/e/the-setup-downtown-sf-stand-up-comedy-tickets-16424103937"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div><div class=\"price\">$15 online / $20 at the door<\/div><div class=\"minimum\">NOTE: There is a ONE ITEM minimum per person<\/div>'
+  return '<div class=\"eventbrite\"><a href=\"https://www.eventbrite.com/e/the-setup-downtown-sf-stand-up-comedy-tickets-16424103937\"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div><div class=\"price\">$15 online / $20 at the door<\/div><div class=\"minimum\">NOTE: There is a ONE ITEM minimum per person<\/div>'
 
 end
 
