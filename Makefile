@@ -1,6 +1,6 @@
 update:
 	@echo "updating the schedule"
-	@ruby updateSchedule.js > schedule.js
+	@ruby updateSchedule.rb > schedule.js
 
 	@echo "pushing updates to git"
 	@git add .
