@@ -26,7 +26,7 @@ def print_show()
 end
 
 def output_something()
-  puts 'document.write("'+
+  puts 'document.write('+
 	print_show()+	
 	print_show()+
 	print_show()+
