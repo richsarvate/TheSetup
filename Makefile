@@ -1,6 +1,6 @@
 update:
 	@echo "updating the schedule"
-	@ruby updateSchedule.rb > schedule.js
+	@ruby updateSchedule.rb "Richard Sarvate,Natasha Muse,Ryan Goodcase,Mean Dave,Shannon Murphy" > scheduleThurs.js
 
 	@echo "pushing updates to git"
 	@git add .
