@@ -6,7 +6,7 @@ end
 
 def print_ticket_button()
 
-  return '<div class=\"eventbrite\"><a href=\"https://www.eventbrite.com/e/comedy-oakland-presents-thu-june-28-2018-tickets-45637808915\"><img alt=\"Buy Comedy Oakland Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div>'
+  return '<div class=\"eventbrite\"><a href=\"https://www.eventbrite.com/e/comedy-oakland-presents-thu-june-28-2018-tickets-45637808915\"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div>'
 
 end
 
