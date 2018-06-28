@@ -4,6 +4,18 @@ def print_comedian(name)
 
 end
 
+def print_ticket_button()
+
+  return '<div class=\"eventbrite\"><a href=\"https://thesetupsf.eventbrite.com"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div><div class=\"minimum\">NOTE: There is a 1-item minimum per person<\/div>'
+
+end
+
+def print_drink_min()
+
+	return '<div class=\"minimum\">NOTE: There is a 1-item minimum per person<\/div>'
+
+end
+
 def output_something()
   puts 'document.write("<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, April 30, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
 	print_comedian("Richard Sarvate")+
@@ -11,13 +23,16 @@ def output_something()
 	print_comedian("Red Scott")+
 	print_comedian("Ben Feldman")+
 	print_comedian("Samson Koletkar")+
-	'<\/ul><div class=\"eventbrite\"><a href=\"https://www.eventbrite.com/e/comedy-oakland-presents-thu-june-28-2018-tickets-45637808915\"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div><div class=\"minimum\">NOTE: There is a 1-item minimum per person<\/div><div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, June 28, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
+	'<\/ul>'
+	+print_ticket_button()+
+	+print_drink_min()+	
+	'<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, June 28, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
 	print_comedian("Mean Dave")+
 	print_comedian("Richard Sarvate")+
 	print_comedian("Red Scott")+
 	print_comedian("Shannon Murphy")+
 	print_comedian("Ben Feldman")+
-	'<\/ul><div class=\"eventbrite\"><a href=\"https://www.eventbrite.com/e/comedy-oakland-presents-thu-june-28-2018-tickets-45637808915\"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div><div class=\"minimum\">NOTE: There is a 1-item minimum per person<\/div><div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, June 28, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
+	'<\/ul><div class=\"eventbrite\"><a href=\"https://thesetupsf.eventbrite.com"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://s3-us-west-1.amazonaws.com/comedyoakland/images/eventbrite-buy-button.jpg\" /><\/a><\/div><div class=\"minimum\">NOTE: There is a 1-item minimum per person<\/div><div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, June 28, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
 	print_comedian("Mean Dave")+
         print_comedian("Richard Sarvate")+
         print_comedian("Red Scott")+
