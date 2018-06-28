@@ -16,17 +16,26 @@ def print_drink_min()
 
 end
 
+def print_show()
+
+	return '<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, April 30, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
+        print_comedian("Richard Sarvate")+
+        print_comedian("Ryan Goodcase")+
+        print_comedian("Red Scott")+
+        print_comedian("Ben Feldman")+
+        print_comedian("Samson Koletkar")+
+        '<\/ul>'
+        +print_ticket_button()+
+        +print_drink_min()+
+        '<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\">'
+
+end
+
 def output_something()
-  puts 'document.write("<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, April 30, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
-	print_comedian("Richard Sarvate")+
-	print_comedian("Ryan Goodcase")+
-	print_comedian("Red Scott")+
-	print_comedian("Ben Feldman")+
-	print_comedian("Samson Koletkar")+
-	'<\/ul>'
-	+print_ticket_button()+
-	+print_drink_min()+	
-	'<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, June 28, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
+  puts 'document.write('+
+	print_show()+	
+'<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\">'+
+	'<h1 class=\"show-heading\"> Thursday, June 28, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
 	print_comedian("Mean Dave")+
 	print_comedian("Richard Sarvate")+
 	print_comedian("Red Scott")+
