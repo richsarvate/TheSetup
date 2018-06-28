@@ -26,7 +26,6 @@ def print_show()
         print_comedian("Samson Koletkar")+
         '<\/ul>'
         +print_ticket_button()+
-        +print_drink_min()+
         '<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\">'
 
 end
