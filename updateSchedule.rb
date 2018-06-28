@@ -10,11 +10,6 @@ def print_ticket_button()
 
 end
 
-def print_drink_min()
-
-	return '<div class=\"minimum\">NOTE: There is a 1-item minimum per person<\/div>'
-
-end
 
 def print_show()
 
@@ -24,8 +19,8 @@ def print_show()
         print_comedian("Red Scott")+
         print_comedian("Ben Feldman")+
         print_comedian("Samson Koletkar")+
-        '<\/ul>'
-        +print_ticket_button()+
+        '<\/ul>'+
+        print_ticket_button()+
         '<\/div><\/div>'
 
 end
