@@ -16,7 +16,7 @@ def print_lineup(comedians)
 	lineup = '<ul class=\"lineup\">'
 
 	for item in comedians.split(',')
-  		lineup += print_comedian(item)	
+  		lineup += print_comedian(item.strip)	
 	end
 
         lineup+='<\/ul>'
