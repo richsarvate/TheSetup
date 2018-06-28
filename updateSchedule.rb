@@ -18,7 +18,7 @@ end
 
 def print_show()
 
-	return '<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Thursday, April 30, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
+	return '<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\"> Friday, April 30, 8:00 PM<\/h1><\/div><div class=\"show-body\"><ul class=\"lineup\">'+
         print_comedian("Richard Sarvate")+
         print_comedian("Ryan Goodcase")+
         print_comedian("Red Scott")+
