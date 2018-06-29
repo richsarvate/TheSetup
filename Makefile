@@ -1,6 +1,6 @@
 update:
 	@echo "updating the schedule"
-	@ruby updateSchedule.rb "`cat thurs`" "Thursday June 28th 8pm" > scheduleThurs.js
+	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Thursday 0`" "Thursday June 28th 8pm" > scheduleThurs.js
 
 	@echo "pushing updates to git"
 	@git add .
