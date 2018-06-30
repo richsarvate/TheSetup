@@ -2,7 +2,7 @@ require 'date'
 
 def date_of_next(day)
   	date  = Date.parse(day)
-  	delta = date > Date.today ? 0 : 7
+  	delta = date+1 > Date.today ? 0 : 7
   	d = Date.parse((date + delta).to_s)
 
 	d.strftime("%b %d %Y")
