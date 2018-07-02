@@ -1,15 +1,14 @@
 import requests
 import json
 
-response = requests.get(
-            "https://www.eventbriteapi.com/v3/series/47615979677",
-                headers = {
-                            "Authorization": "Bearer XZJ5OCCSCTM3XJL5RNMW",
-                                },
-                    verify = True,  # Verify SSL certificate
-                    )
+f = open("description.html","r")
+desc = f.read()
 
-json_data = json.loads(response.text)
+r = requests.post("https://www.eventbriteapi.com/v3/series/47615979677", 
+    data = {"series_parent.description.html":desc},
+    headers = {"Authorization": "Bearer XZJ5OCCSCTM3XJL5RNMW",},
+    verify = True,
+    )
 
-
-print(json_data['description']['html']);
+json_data = json.loads(r.text)
+print(r.json());
