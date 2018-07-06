@@ -5,6 +5,8 @@ update:
 	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Saturday 0`" "Saturday `ruby getDateForNextDay.rb Saturday` 8pm" > scheduleSat8pm.js
 	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Saturday 1`" "Saturday `ruby getDateForNextDay.rb Saturday` 10pm" > scheduleSat10pm.js
 
+	@python3 updateEventbriteDesc.py
+
 	@echo "pushing updates to git"
 	@git add .
 	@git commit -m "updating the schedule"
