@@ -26,7 +26,7 @@ worksheet.rows.each { |row|
 	if (nextdate==row.first(1)[0].to_s)
 		comedians = [];
 		
-		row.drop(4).each { |comedian|
+		row.drop(5).each { |comedian|
 			if (!comedian.empty?)
 				comedians.push(comedian.sub(/\(.*\)/, '').strip)
 			end
