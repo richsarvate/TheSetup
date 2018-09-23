@@ -19,7 +19,7 @@ def print_ticket_button(showName)
 		ticketLink = "https://thesetupsf.eventbrite.com"
 	end
 
-	return '<div class=\"eventbrite\"><a href=\"'+ticketLink+'"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://i.imgur.com/0eV8t0o.png\" /><\/a><\/div><div class=\"price\">$15 online / $20 at the door<\/div><div class=\"minimum\">NOTE: There is a ONE ITEM minimum per person<\/div>'
+	return '<div class=\"eventbrite\"><a href=\"'+ticketLink+'\"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://i.imgur.com/0eV8t0o.png\" /><\/a><\/div><div class=\"price\">$15 online / $20 at the door<\/div><div class=\"minimum\">NOTE: There is a ONE ITEM minimum per person<\/div>'
 
 end
 
