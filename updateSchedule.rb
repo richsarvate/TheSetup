@@ -17,6 +17,8 @@ def print_ticket_button(showName)
 		ticketLink = "https://badasians.eventbrite.com"
 	when "Don't Tell Secret Show"
 		ticketLink = "https://www.donttellcomedy.com/tickets/sfciviccenter"
+	when "I Think I'd Be Good At That"
+		ticketLink = "https://www.eventbrite.com/e/the-setup-presents-i-think-id-be-good-at-that-tickets-50929837515"
 	else
 		ticketLink = "https://thesetupsf.eventbrite.com"
 	end
