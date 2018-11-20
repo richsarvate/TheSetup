@@ -13,6 +13,8 @@ def print_ticket_button(showName)
 		ticketLink = "https://thesetupsf.eventbrite.com"
 	when "Storytelling Night: A Funny Thing Happened"
 		ticketLink = "https://setupstorynight.eventbrite.com"
+	when "The Bitchuation Room Live Podcast"
+		ticketLink = "https://thebitchuationroom.eventbrite.com"
 	when "Bad Asians"
 		ticketLink = "https://badasians.eventbrite.com"
 	when "Don't Tell Secret Show"
