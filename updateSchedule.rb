@@ -46,7 +46,7 @@ end
 
 def output_something(comedians, date, showName)
 
-	if showName.nil? || showName.empty?
+	if showName.nil? || showName.empty? || showName == "NO SHOW"
 		puts ''
 	else
 		puts 'document.write("<div class=\"show-wrapper\"><div class=\"show-heading-wrapper\"><h1 class=\"show-heading\">'+date+" - "+showName+'<\/h1><\/div><div class=\"show-body\"><div class=\"description\">Featuring comedians from Comedy Central, HBO, and Late Night, The Setup brings you the best comedy experience in San Francisco<\/div>'+
