@@ -11,6 +11,8 @@ def getDescription(showName)
 	case showName
 	when "Roast of Harry Potter"
 		description = "No one in Hogwarts is safe when we bring some of the funniest comedians in the bay to roast everyone’s favorite wizarding school! We’ll be raffling prizes and drinks throughout the show so come show your House spirit!"
+	when "Storytelling Night: A Funny Thing Happened"
+		description = "The First Wednesday of every Month, The Setup presents \"A Funny Thing Happened\", a night of world class storytelling. You'll be joining bestselling authors, Emmy-Award winning writers, TED speakers, stars of The Moth Radio hour, Snap Judgment and accomplished comedic voices in an intimate setting right in the heart of San Francisco."
 	end
 
 	return description
