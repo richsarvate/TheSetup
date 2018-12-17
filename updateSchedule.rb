@@ -13,7 +13,11 @@ def getDescription(showName)
 		description = "No one in Hogwarts is safe when we bring some of the funniest comedians in the bay to roast everyone’s favorite wizarding school! We’ll be raffling prizes and drinks throughout the show so come show your House spirit!"
 	when "Storytelling Night: A Funny Thing Happened"
 		description = "The First Wednesday of every Month, The Setup presents 'A Funny Thing Happened', a night of world class storytelling. You'll be joining bestselling authors, Emmy-Award winning writers, TED speakers, stars of The Moth Radio hour, Snap Judgment and accomplished comedic voices in an intimate setting right in the heart of San Francisco."
+	when "The Bitchuation Room"
+		description = "Welcome to The Bitchuation Room, a live monthly progressive comedy podcast moderated by journalist and comedian Francesca Fiorentini. Join her and fellow comedian Nato Green as they gather comedians, activists, experts, journalists and politicians to make sense and fun of the month's news. It's like NPR on psychedelics. Or off them."
+
 	end
+
 
 	return description
 end
