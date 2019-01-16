@@ -32,7 +32,7 @@ def print_ticket_button(showName)
 	when "Storytelling Night: A Funny Thing Happened"
 		ticketLink = "https://setupstorynight.eventbrite.com"
 	when "The Bitchuation Room"
-		ticketLink = "https://thebitchuationroom.eventbrite.com"
+		ticketLink = "https://thebroompodcast.eventbrite.com"
 	when "Bad Asians"
 		ticketLink = "https://badasians.eventbrite.com"
 	when "Don't Tell Secret Show"
