@@ -3,6 +3,7 @@ update:
 	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Wednesday 0`" "Wednesday `ruby getDateForNextDay.rb Wednesday` 8pm" "`ruby getShowNameForDay.rb Wednesday 0`"> scheduleWed.js
 	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Thursday 0`" "Thursday `ruby getDateForNextDay.rb Thursday` 8pm" "`ruby getShowNameForDay.rb Thursday 0`"> scheduleThurs.js
 	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Friday 0`" "Friday `ruby getDateForNextDay.rb Friday` 8pm" "`ruby getShowNameForDay.rb Friday 0`"> scheduleFri8pm.js
+	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Friday 1`" "Friday `ruby getDateForNextDay.rb Friday` 10pm" "`ruby getShowNameForDay.rb Friday 1`"> scheduleFri10pm.js
 	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Saturday 0`" "Saturday `ruby getDateForNextDay.rb Saturday` 8pm" "`ruby getShowNameForDay.rb Saturday 0`"> scheduleSat8pm.js
 	@ruby updateSchedule.rb "`ruby getLineupForDay.rb Saturday 1`" "Saturday `ruby getDateForNextDay.rb Saturday` 10pm" "`ruby getShowNameForDay.rb Saturday 1`"> scheduleSat10pm.js
 
