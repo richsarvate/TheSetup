@@ -9,6 +9,8 @@ def getDescription(showName)
 	description = "Featuring comedians from Comedy Central, HBO, and Late Night, The Setup brings you the best comedy experience in San Francisco"
 
 	case showName
+	when "Tech Roast"
+		description = "If you're a tech bro and you're not prepared to get roasted, be warned: This night of comedy will poke fun at coders, programmers, and the mega corps they work for, courtesy of four professional comics."
 	when "Roast of Harry Potter"
 		description = "No one in Hogwarts is safe when we bring some of the funniest comedians in the bay to roast everyone’s favorite wizarding school! We’ll be raffling prizes and drinks throughout the show so come show your House spirit!"
 	when "Storytelling Night: A Funny Thing Happened"
@@ -39,6 +41,8 @@ def print_ticket_button(showName)
 		ticketLink = "https://www.donttellcomedy.com/tickets/sfciviccenter"
 	when "Roast of Harry Potter"
 		ticketLink = "https://www.eventbrite.com/e/the-setup-presents-the-roast-of-harry-potter-tickets-52299849257"
+	when "Tech Roast"
+		ticketLink = "https://www.eventbrite.com/e/socially-inept-a-comedy-roast-tickets-53664676492"
 	when "I Think I'd Be Good At That"
 		ticketLink = "https://www.eventbrite.com/e/the-setup-presents-i-think-id-be-good-at-that-tickets-50929837515"
 	else
